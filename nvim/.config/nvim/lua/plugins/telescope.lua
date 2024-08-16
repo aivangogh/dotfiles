@@ -21,7 +21,7 @@ return {
 					sort_mru = true,
 					ignore_current_buffer = true,
 					show_all_buffers = false,
-					attach_mappings = function(prompt_bufnr, map)
+					attach_mappings = function(prompt_bufnr)
 						local refresh_buffer_searcher = function()
 							actions.close(prompt_bufnr)
 							vim.schedule(buffer_searcher)
@@ -39,9 +39,9 @@ return {
 							end
 							refresh_buffer_searcher()
 						end
-						map("n", "dd", delete_buf)
-						map("n", "<C-d>", delete_multiple_buf)
-						map("i", "<C-d>", delete_multiple_buf)
+						vim.keymap.set("n", "dd", delete_buf)
+						vim.keymap.set("n", "<C-d>", delete_multiple_buf)
+						vim.keymap.set("i", "<C-d>", delete_multiple_buf)
 						return true
 					end,
 				})
