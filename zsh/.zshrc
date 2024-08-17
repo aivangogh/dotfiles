@@ -115,6 +115,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias coding='function _coding() { cd /mnt/DAEAB109EAB0E2C5/van_tried_coding/${1} ; } ; _coding '
 
+export EDITOR=nvim
+
 # nvim
 export PATH="$PATH:/opt/nvim-linux64/bin"
 
@@ -138,3 +140,7 @@ source /home/linuxbrew/.linuxbrew/share/zsh-syntax-highlighting/zsh-syntax-highl
 
 export PATH=$PATH:/home/van/.spicetify
 
+export PATH="$HOME/.tmuxifier/bin:$PATH"
+eval "$(tmuxifier init -)"
+
+alias tmuxf="tmuxifier"

@@ -27,9 +27,10 @@ return {
 		}
 
 		dashboard.section.buttons.val = {
-			dashboard.button("r", " Recent", "<cmd> Telescope oldfiles cwd_only=true <cr>"),
-			dashboard.button("f", " Find file", "<cmd> Telescope find_files <cr>"),
-			dashboard.button("q", " Quit", "<cmd> qa <cr>"),
+			dashboard.button("r", "Recent", "<cmd> Telescope oldfiles cwd_only=true <cr>"),
+      dashboard.button("e", "Restore session", "<cmd> SessionRestore <cr>"),
+			dashboard.button("f", "Find file", "<cmd> Telescope find_files <cr>"),
+			dashboard.button("q", "Quit", "<cmd> qa <cr>"),
 		}
 
 		alpha.setup(dashboard.opts)
