@@ -19,7 +19,7 @@ return {
 			buffer_searcher = function()
 				builtin.buffers({
 					sort_mru = true,
-					-- ignore_current_buffer = true,
+					ignore_current_buffer = true,
 					show_all_buffers = false,
 					attach_mappings = function(prompt_bufnr, map)
 						local refresh_buffer_searcher = function()
@@ -47,8 +47,9 @@ return {
 				})
 			end
 			vim.keymap.set("n", "<C-p>", builtin.find_files, {})
+      vim.keymap.set("n", "<C-q>", function() builtin.oldfiles({ cwd_only = true }) end, {})
 			vim.keymap.set("n", "<leader>fg", builtin.live_grep, {})
-			vim.keymap.set("n", "<leader>ff", buffer_searcher, {})
+			vim.keymap.set("n", "<leader>bb", buffer_searcher, {})
 			vim.keymap.set("n", "<leader>fh", builtin.help_tags, {})
 		end,
 	},
