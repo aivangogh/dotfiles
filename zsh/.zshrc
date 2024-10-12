@@ -144,3 +144,5 @@ export PATH="$HOME/.tmuxifier/bin:$PATH"
 eval "$(tmuxifier init -)"
 
 alias tmuxf="tmuxifier"
+
+export PATH=$HOME/.config/rofi/scripts:$PATH

@@ -27,11 +27,11 @@ return {
 		}
 
 		dashboard.section.buttons.val = {
-			dashboard.button("r", "Recent", "<cmd> Telescope oldfiles cwd_only=true initial_mode=normal<cr>"),
+			dashboard.button("q", "Recent", "<cmd> Telescope oldfiles cwd_only=true initial_mode=normal<cr>"),
       -- dashboard.button("e", "Restore session", "<cmd> SessionRestore <cr>"),
-			dashboard.button("f", "Find file", "<cmd> Telescope find_files <cr>"),
+			dashboard.button("p", "Find file", "<cmd> Telescope find_files <cr>"),
 			dashboard.button("c", "NVIM Config", "<cmd> e ~/.config/nvim <cr>"),
-			dashboard.button("q", "Quit", "<cmd> qa <cr>"),
+			dashboard.button("x", "Quit", "<cmd> qa <cr>"),
 		}
 
 		alpha.setup(dashboard.opts)
