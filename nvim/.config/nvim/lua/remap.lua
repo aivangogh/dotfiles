@@ -37,6 +37,9 @@ vim.keymap.set("n", "<leader>Y", '"+Y')
 -- Special delete
 vim.keymap.set({ "n", "v" }, "<leader>d", '"_d')
 
+vim.keymap.set("n", "o", "o<Esc>")
+vim.keymap.set("n", "O", "O<Esc>")
+
 -- Switch projects
 vim.keymap.set("n", "<C-sp>", "<cmd>silent !tmux neww tmux-sessionizer<CR>")
 
@@ -49,3 +52,6 @@ vim.keymap.set("n", "<leader>j", "<cmd>lprev<CR>zz")
 -- Search and replace
 vim.keymap.set("n", "<C-f>", ":%s/\\<<C-r><C-w>\\>/<C-r><C-w>/gI<Left><Left><Left>")
 vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
+
+-- Undotree
+vim.keymap.set("n", "<leader><F5>", "<cmd>UndotreeToggle<CR>")
