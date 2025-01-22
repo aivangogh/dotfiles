@@ -86,6 +86,7 @@ return {
 	},
 	{
 		"Exafunction/codeium.vim",
+    enabled = true,
 		event = "BufEnter",
 		config = function()
 			-- Change '<C-g>' here to any keycode you like.

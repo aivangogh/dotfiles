@@ -4,7 +4,7 @@ return {
   keys = {
     -- 👇 in this section, choose your own keymappings!
     {
-      "<C-b>",
+      "<leader>-",
       "<cmd>Yazi<cr>",
       desc = "Open yazi at the current file",
     },
@@ -27,7 +27,7 @@ return {
     open_for_directories = false,
     keymaps = {
       show_help = '<f1>',
-      open_file_in_tab = false,
+      open_file_in_tab = false
     },
   },
 }

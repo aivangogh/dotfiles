@@ -113,7 +113,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias coding='function _coding() { cd /mnt/DAEAB109EAB0E2C5/van_tried_coding/${1} ; } ; _coding '
+alias coding='function _coding() { cd /mnt/E007DDB74207BFBF/van_tried_coding/${1} ; } ; _coding '
 
 export EDITOR=nvim
 

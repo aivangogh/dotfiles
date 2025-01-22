@@ -125,9 +125,8 @@ return {
 			},
 		})
 
-		ins_left({ "branch", icon = " ", color = { fg = colors.color9 } })
-
-		ins_left({
+		-- Right side
+		ins_right({
 			"diff",
 			-- Is it me or the symbol for modified us really weird
 			symbols = { added = " ", modified = " ", removed = " " },
@@ -139,7 +138,8 @@ return {
 			cond = conditions.hide_in_width,
 		})
 
-		-- Right side
+		ins_right({ "branch", icon = " ", color = { fg = colors.color9 } })
+
 		ins_right({
 			"diagnostics",
 			symbols = { error = " ", warn = " ", info = " " },
@@ -170,8 +170,6 @@ return {
 			icon = "  LSP ~",
 			color = { fg = colors.color9, gui = "bold" },
 		})
-
-		ins_right({ "progress", color = { fg = colors.color2, bg = mode_color[vim.fn.mode()], gui = "bold" } })
 
 		lualine.setup(config)
 	end,
