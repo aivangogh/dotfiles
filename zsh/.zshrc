@@ -146,3 +146,5 @@ eval "$(tmuxifier init -)"
 alias tmuxf="tmuxifier"
 
 export PATH=$HOME/.config/rofi/scripts:$PATH
+export PATH="/home/van/.config/herd-lite/bin:$PATH"
+export PHP_INI_SCAN_DIR="/home/van/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
