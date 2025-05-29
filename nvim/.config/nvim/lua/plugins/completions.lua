@@ -104,6 +104,12 @@ return {
 			end, { expr = true, silent = true })
 		end,
 	},
+  {
+  "supermaven-inc/supermaven-nvim",
+  config = function()
+    require("supermaven-nvim").setup({})
+  end,
+},
 	{
 		"chrisbra/matchit",
 	},

@@ -141,6 +141,7 @@ source /home/linuxbrew/.linuxbrew/share/zsh-syntax-highlighting/zsh-syntax-highl
 export PATH=$PATH:/home/van/.spicetify
 
 export PATH="$HOME/.tmuxifier/bin:$PATH"
+export TMUXIFIER_LAYOUT_PATH="$HOME/.tmux-layouts"
 eval "$(tmuxifier init -)"
 
 alias tmuxf="tmuxifier"
@@ -148,3 +149,13 @@ alias tmuxf="tmuxifier"
 export PATH=$HOME/.config/rofi/scripts:$PATH
 export PATH="/home/van/.config/herd-lite/bin:$PATH"
 export PHP_INI_SCAN_DIR="/home/van/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
+
+export PATH=$PATH:/home/aivan-dev/.spicetify
+
+# pnpm
+export PNPM_HOME="/home/aivan-dev/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
