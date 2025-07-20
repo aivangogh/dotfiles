@@ -1,8 +1,8 @@
-[22:28:36 2025-03-25] FETCHING Version 2.39.5
-[22:28:36 2025-03-25] DOWNLOADING https://github.com/spicetify/cli/releases/download/v2.39.5/spicetify-2.39.5-linux-amd64.tar.gz
-[22:28:37 2025-03-25] EXTRACTING /home/aivan-dev/.spicetify/spicetify.tar.gz
-[22:28:37 2025-03-25] SETTING EXECUTABLE PERMISSIONS TO /home/aivan-dev/.spicetify/spicetify
-[22:28:37 2025-03-25] REMOVING /home/aivan-dev/.spicetify/spicetify.tar.gz
-[22:28:37 2025-03-25] spicetify path already set in /home/aivan-dev/.zshrc, continuing...
-[22:28:38 2025-03-25] spicetify v2.39.5 was installed successfully to /home/aivan-dev/.spicetify
-[22:28:38 2025-03-25] Run 'spicetify --help' to get started
+[13:50:03 2025-07-08] FETCHING Version 2.40.11
+[13:50:03 2025-07-08] DOWNLOADING https://github.com/spicetify/cli/releases/download/v2.40.11/spicetify-2.40.11-linux-amd64.tar.gz
+[13:50:05 2025-07-08] EXTRACTING /home/van/.spicetify/spicetify.tar.gz
+[13:50:05 2025-07-08] SETTING EXECUTABLE PERMISSIONS TO /home/van/.spicetify/spicetify
+[13:50:05 2025-07-08] REMOVING /home/van/.spicetify/spicetify.tar.gz
+[13:50:05 2025-07-08] spicetify path already set in /home/van/.zshrc, continuing...
+[13:50:05 2025-07-08] spicetify v2.40.11 was installed successfully to /home/van/.spicetify
+[13:50:05 2025-07-08] Run 'spicetify --help' to get started

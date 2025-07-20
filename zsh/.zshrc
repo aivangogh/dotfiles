@@ -113,7 +113,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias coding='function _coding() { cd /mnt/E007DDB74207BFBF/van_tried_coding/${1} ; } ; _coding '
+alias coding='function _coding() { cd $HOME/Files/van_tried_coding/${1} ; } ; _coding '
 
 export EDITOR=nvim
 
@@ -153,9 +153,12 @@ export PHP_INI_SCAN_DIR="/home/van/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
 export PATH=$PATH:/home/aivan-dev/.spicetify
 
 # pnpm
-export PNPM_HOME="/home/aivan-dev/.local/share/pnpm"
+export PNPM_HOME="/home/van/.local/share/pnpm"
 case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+export PATH=$HOME/.local/bin:$PATH
+
+export GEMINI_API_KEY="AIzaSyDc9Icc6X4WsBx-vZwvhLVI2hkcstKtiYU"
