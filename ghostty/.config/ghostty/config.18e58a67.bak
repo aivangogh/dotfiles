@@ -1,4 +1,4 @@
-theme = Ayu
+theme = ayu
 
 background = #0b0e14
 
@@ -14,4 +14,3 @@ window-save-state = always
 shell-integration = none
 title = " "
 
-keybind = shift+enter=text:\n
