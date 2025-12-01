@@ -19,7 +19,7 @@ return {
       window = {
         mappings = {
           ["<C-n>"] = "close_window",
-          ["<Space>"] = "open",
+          ["<space>"] = "open",
         },
         position = "float",
         popup = {

@@ -4,3 +4,6 @@
 
 vim.opt.smoothscroll = false
 vim.opt.showtabline = 0
+
+-- PHP LSP
+vim.g.lazyvim_php_lsp = "intelephense"
