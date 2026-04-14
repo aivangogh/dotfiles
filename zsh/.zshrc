@@ -160,5 +160,3 @@ case ":$PATH:" in
 esac
 # pnpm end
 export PATH=$HOME/.local/bin:$PATH
-
-export GEMINI_API_KEY="AIzaSyDc9Icc6X4WsBx-vZwvhLVI2hkcstKtiYU"
